@@ -11,6 +11,33 @@
     background-image: url(cutegirl);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.8rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Baloo 2", cursive;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+  p {
+    width: 900px;
+  }
+  .howmuch {
+    width: 153px;
+    height: 33px;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 30px;
+    margin: 0px 0px 15px -3px;
+    background: rgba(34, 255, 5, 0.301);
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+  }
+  label {
+    color: rgb(60, 255, 0);
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
@@ -18,6 +45,36 @@
     background-image: url(studygirl);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Baloo 2", cursive;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.8rem;
+  }
+
+  label {
+    color: red;
+    padding: 9px 12rem 2px 0px;
+  }
+  p {
+    width: 600px;
+  }
+  .howmuch {
+    margin: 9px 14.7rem 2px 0px;
+    border: 2px solid #e2ded2a3;
+    border-radius: 30px;
+    padding: 3px;
+    width: 96px;
+    background: #e2ded2a3;
+    text-align: center;
+    font-weight: bold;
+  }
+  .payment {
+    margin: 9px 12.8rem 3px 0px;
   }
 }
 
@@ -34,6 +91,7 @@
     font-family: "Baloo 2", cursive;
     text-transform: capitalize;
     color: white;
+    font-size: 1.3rem;
   }
 
   label {

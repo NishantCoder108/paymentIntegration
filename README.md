@@ -1,2 +1,1 @@
-# paymentIntegration
-Created with CodeSandbox
+# paymentIntegration project
