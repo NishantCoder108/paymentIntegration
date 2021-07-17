@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap");
+.container {
+  background-image: url(cutegirl);
+  width: 100vw;
+  height: 100vh;
+  background-size: 100vw;
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    background-image: url(cutegirl);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .container {
+    background-image: url(studygirl);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    background-image: url(boy);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: "Baloo 2", cursive;
+    text-transform: capitalize;
+    color: white;
+  }
+
+  label {
+    color: red;
+    padding-top: 9px;
+  }
+  .howmuch {
+    margin: 16px 0px;
+    border: 2px solid #e2ded2a3;
+    border-radius: 30px;
+    padding: 3px;
+    width: 96px;
+    background: #e2ded2a3;
+    text-align: center;
+    font-weight: bold;
+  }
+}
